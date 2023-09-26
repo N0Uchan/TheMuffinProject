@@ -63,8 +63,9 @@ a[draggable]{
 img{
     max-height: 100vh;
     height: auto;
-    max-width: 100%;
+    max-width: 95%;
     image-resolution: 64%;
+    margin: 20px;
 
 }
 
