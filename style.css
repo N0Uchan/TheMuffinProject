@@ -1,8 +1,8 @@
-html{
+/* html{
     background-color: #EAC696;
     font-family: 'Exo 2', sans-serif;
     
-}
+} */
 
 h1 {
     color: #65451F;
@@ -10,11 +10,11 @@ h1 {
     width: 100%;
     text-align: center;
     font-family: 'Ysabeau Infant', sans-serif;
-    margin: 0px 0px 0px 0px; 
-    padding: 0px 0px 0px 0px;
+    margin: 0; 
+    padding-bottom: 6px;
 }
 
-#translate{
+/* #translate{
     color: #7EAA92  ;
     font-weight:900;
     background-color: #CBB279;
@@ -23,12 +23,17 @@ h1 {
     
     margin: 0px 0px 0px 0px; 
     padding: 0px 0px 0px 0px;
-}
+} */
 
 #body1{
-    width:92%;
+    /* width:92%;
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 4%; */
+    margin: 0;
+    padding: 4%;
+    background-color: #EAC696;
+    font-family: 'Exo 2', sans-serif;
+    
 }
 
 p{
@@ -140,6 +145,69 @@ h4{
 #meowsound{
     text-align: center;
     color:lightcoral;
+}
+
+.meowSoundButtons{
+    display: inline-block;
+    background-size: 80px;
+    height: 80px;
+    width: 80px;
+    margin: 25px;
+    font-size: 0;
+    border-color:wheat ;
+    border-radius: 5px;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.7;
+}
+#btnContainer{
+    position: relative;
+}
+.enlargeAndOverlay{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    height: 100vh;
+    width: 90vw;
+    opacity: 1;
+    
+}
+
+#verb1{
+    background-image: url("./assets/images/contactVerbsImgs/cat1.jpg");
+}
+#verb2{
+    background-image: url("./assets/images/contactVerbsImgs/cat2.jpg");    
+}
+#alertVol{
+    color: peachpuff;
+}
+
+#verb3{
+    background-image: url("./assets/images/contactVerbsImgs/smtmsAlone.jpeg");    
+}
+#verb4{
+    background-image: url("./assets/images/contactVerbsImgs/bnnCat1.jpeg");    
+}
+#verb4v2{
+    background-image: url("./assets/images/contactVerbsImgs/bnnCat2.jpeg");    
+}
+#verb5{
+    background-image: url("./assets/images/contactVerbsImgs/aokiCat1.jpeg");    
+}
+#verb5v2{
+    background-image: url("./assets/images/contactVerbsImgs/aokiCat2.jpeg");
+    background-size: 100%;
+    
+    width: 90vw;
+    height: 170vh;
+}
+#aokiCatVideo{
+    max-width: 200vw;
+    max-height: 200vh;
 }
 
 #findme{
